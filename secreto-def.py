@@ -4,7 +4,7 @@ import random
 
 print("\n Muy buenas, bienvenid@ a este juego de adivinar el número secreto. \n Consigue unos de los tres mejores resultados y te llevaras una paletilla. \n De momento la cosa va así \n")
 
-secreto = random.randint(1, 3)
+secreto = random.randint(1, 30)
 intentos = 0
 
 # pasamos la fecha al formato europeo solo con dia / mes / año
